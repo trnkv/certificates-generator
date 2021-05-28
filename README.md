@@ -26,7 +26,7 @@ py main.py names.txt docx-templates/template.docx
 2. Скачать всю папку, разархивировать (или клонировать из git)
 3. В терминале последовательно выполнить следующие команды:
 ```
-cd путь_к_certificates-generator-main
+cd путь_к_certificates-generator
 ```
 ```
 source /gen-venv/bin/activate
