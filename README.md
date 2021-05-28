@@ -16,7 +16,10 @@ ________________________________________________________________________________
 2. Скачать всю папку, разархивировать  (или клонировать из git)
 3. Открыть командную строку от имени Администратора и последовательно ввести команды:
 ```
-cd путь_к_certificates-generator-main_начиная_с_диска_C\gen-venv-windows\Scripts\activate.bat
+cd путь_к_certificates-generator-main_начиная_с_диска_C
+```
+```
+gen-venv-windows\Scripts\activate.bat
 ```
 ```
 py main.py names.txt docx-templates/template.docx
@@ -26,7 +29,7 @@ py main.py names.txt docx-templates/template.docx
 2. Скачать всю папку, разархивировать (или клонировать из git)
 3. В терминале последовательно выполнить следующие команды:
 ```
-cd путь_к_certificates-generator
+cd путь_к_certificates-generator-main
 ```
 ```
 source /gen-venv/bin/activate
