@@ -32,7 +32,7 @@ py main.py names.txt docx-templates/template.docx
 cd путь_к_certificates-generator-main
 ```
 ```
-source /gen-venv/bin/activate
+source gen-venv/bin/activate
 ```
 ```
 python3 main.py names.txt docx-templates/template.docx
