@@ -7,6 +7,7 @@ import sys
 
 def generate_certificates(name_docx_template, names):
 	for name in names:
+		name = name.replace('\n', '')
 		doc = DocxTemplate(name_docx_template)
 		context = {'name': name}
 		doc.render(context)
