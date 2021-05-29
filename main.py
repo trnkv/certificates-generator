@@ -22,6 +22,7 @@ def generate_certificates(name_docx_template, names):
 
 
 def main():
+	print("This program was created by Anna Ilina for IT school in Vladikavkaz.")
 	args = sys.argv  # [имя файла с именами ("names.txt"), имя файла шаблона docx ("template.docx")]
 	if len(sys.argv) < 3 or args[1] == "--help":
 		print("Please input command like:\npython3 main.py names.txt docx-templates/template.docx")
