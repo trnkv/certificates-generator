@@ -1,4 +1,5 @@
-# certificates-generator for JINR
+# certificates-generator
+## created by Anna Ilina in May 2021
 Генератор получает на вход:
 
 - **текстовый файл .txt**, в котором на каждой строке содержится одно имя, для которого необходимо сгенерировать сертификат (пример такого файла лежит в корне: names.txt),
